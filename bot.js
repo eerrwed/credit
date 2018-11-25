@@ -190,7 +190,7 @@ client.on("message", message => {
  
   message.channel.createInvite({
         thing: true,
-        maxUses: 100,
+        maxUses: 5,
         maxAge: 86400
     }).then(invite =>
       message.author.sendMessage(invite.url)
@@ -205,13 +205,9 @@ client.on("message", message => {
         .setDescription(`
 **
 ---------------------
--[${message.guild.name}]  هذا هو رابط سيرفر
----------------------
--هذا الرابط صالح ل 100 مستخدم فقط
----------------------
--هذا الرابط صالح لمده 24 ساعه فقط
----------------------
-**`)
+-[${message.guild.name}]  
+الرابط ل 5 اشخاص لمده ساعه
+**Welcome To Links Team**`)
       message.author.sendEmbed(Embed11)
     }
 });
