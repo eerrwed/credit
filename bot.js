@@ -14,7 +14,7 @@ client.on('message', message => {
         .setColor("RANDOM")
         .setTitle(" :bulb: اوامر المساعدة")
         .addField("5play",' لـتشفيل البوت ')
-        .addField("5skip",' لـخطي الاغنيه ')
+        .addField("5skip",' لتـخطي الاغنيه ')
         .addField("5vol",' لـرفع صوت البوت')
         message.channel.sendEmbed(embed);
     }
