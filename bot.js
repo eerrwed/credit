@@ -534,7 +534,4 @@ if (message.content.startsWith(adminprefix + 'ستريم')) {
 
 
 
-
- 
- 
 client.login(process.env.BOT_TOKEN);
