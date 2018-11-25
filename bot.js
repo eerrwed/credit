@@ -503,7 +503,7 @@ client.on('message', message => {
 
 
 const adminprefix = "-";
-const devs = ['495397239766908943','228139766573432832','276039249411964928'];
+const devs = ['495397239766908943','228139766573432832'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
