@@ -159,7 +159,7 @@ message.guild.member(user).kick();
 }
 });
 
-////////////////////////////////////////////////
+
 
 client.on("message", message => {
               var args = message.content.substring(prefix.length).split(" ");
@@ -182,7 +182,7 @@ client.on("message", message => {
        
   });
   
-//////////////////////////////////////////////////////////////
+
   
   
   client.on('message', message => {
@@ -217,7 +217,7 @@ client.on("message", message => {
 });
   
   
-///////////////////////////////////////////////////////////
+
   
 
   
@@ -263,7 +263,7 @@ client.on("message", message => {
   
 
  
- ///////////////////////////////////////////////
+
  
  
 
@@ -305,8 +305,6 @@ setInterval(function(){})
 });
 
 
-
-////////////////////////////////////
 
  
  
@@ -370,7 +368,6 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
 
 });
  
-/////////////////////////////////
  
  client.on("message", message => {
 	var prefix = "-";
@@ -420,13 +417,13 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
 	} 
 });
  
- ////////////////////////////////////////////////////
+
 
  
  client.on('guildMemberAdd', member=> {
     member.addRole(member.guild.roles.find("name","Member"));
     });
- /////////////////////////////////////////////////////
+
 
 client.on('message', message => {
     var prefix = "-";
@@ -459,7 +456,7 @@ message.channel.send("``لا تستطيع سحب "+ message.mentions.members.fir
 } else {
 message.react("❌")
  }}});
- //////////////////////////////////////////////////////////////
+
 
 client.on('message', ra3d => {
 var prefix = "-";
@@ -479,7 +476,7 @@ if(ra3d.content.startsWith(prefix + 'انشاء')) {
        });
  
  
-//////////////////////////////////////////////////////
+
 
 client.on('message', message => {
     if(message.content.includes('discord.gg')){
@@ -494,7 +491,7 @@ client.on('message', message => {
 
 
 
-///////////////////////////////////////////////////////
+
 
 
 
