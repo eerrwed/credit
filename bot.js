@@ -525,8 +525,7 @@ client.on('message', message => {
 
 
 
-const Discord = require("discord.js");
-const client = new Discord.Client();
+
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`Desert Bot- Script By : wenntedd`);
